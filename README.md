@@ -10,7 +10,6 @@ This is the refactored WebAnalyzer that uses Groq's Llama-3 70B model for the ch
     ```
 
 2.  **Environment Variables:**
-    - Rename `.env.example` to `.env`.
     - Add your Groq API key to `.env`:
         ```
         GROQ_API_KEY=gsk_...
@@ -25,3 +24,4 @@ This is the refactored WebAnalyzer that uses Groq's Llama-3 70B model for the ch
 - **Chatbot**: Now uses `groq` library with `llama-3.3-70b-versatile` model.
 - **Mentions**: Now uses `groq` instead of Azure OpenAI.
 - **Removed**: Azure OpenAI, LangChain, and ChromaDB dependencies.
+
